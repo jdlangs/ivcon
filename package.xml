@@ -1,7 +1,7 @@
-<package>
+<package format="2">
   <name>ivcon</name>
-  <version>0.1.7</version>
-  
+  <version>1.0.0</version>
+
   <description>
 
 Mesh Conversion Utility
@@ -19,6 +19,10 @@ are no local modifications to this package.
   <license>GPL</license>
   <url type="website">https://sourceforge.net/projects/ivcon/</url>
 
-  <buildtool_depend>catkin</buildtool_depend>
-  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+
 </package>
